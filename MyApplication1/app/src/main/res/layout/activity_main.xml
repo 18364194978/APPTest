@@ -9,9 +9,66 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:layout_gravity="center_vertical"
     tools:context="com.example.administrator.myapplication1.MainActivity">
+    <!--此处采用tableLayout的格式为按钮布局，此布局继承了LinearLayout布局，所以放在内部即可-->
+    <!--定义第一个表格布局指定2,3,4列陨石拉伸-->
+    <TableLayout android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3">
+        <!--直接添加按钮会占整一行-->
+        <Button android:id="@+id/btn11"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="按钮11"/>
+        <!--添加一个表格行-->
+        <TableRow>
+            <Button android:id="@+id/bt21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮21"/>
+            <Button android:id="@+id/bt22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮22"/>
+            <Button android:id="@+id/bt23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮23"/>
+        </TableRow>
+    </TableLayout>
+    <!--定义第二个表格布局指定2,3,4列陨石拉伸-->
+    <TableLayout android:id="@+id/TableLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3">
+        <Button android:id="@+id/btn30"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="按钮30"/>
+        <TableRow>
+            <Button android:id="@+id/bt31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮31"/>
+            <Button android:id="@+id/bt32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮32"/>
+            <Button android:id="@+id/bt33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮33"/>
+        </TableRow>
+    </TableLayout>
+    <!--定义第三个表格布局指定2,3,4列陨石拉伸-->
+    <TableLayout android:id="@+id/TableLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3">
 
+    </TableLayout>
+    <!--
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,4 +83,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="移动的小球"/>
+       -->
 </LinearLayout>
