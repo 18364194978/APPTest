@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#116使用SimpleAdapter(适用大部分需求，可以添加图片文字以及点击等)创建listview-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--定义一个listview-->
+    <ListView android:id="@+id/mylist"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#117利用GridView（与ListView类似只是比list展示多列）与simpleAdpter-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <!--定义一个GridVIew组件-->
+    <GridView android:id="@+id/grid01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:horizontalSpacing="1pt"
+        android:verticalSpacing="1pt"
+        android:numColumns="4"
+        android:gravity="center"/>
+    <!--定义一个ImageView组件用于展示被点击的放大后的图片-->
+    <ImageView android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
