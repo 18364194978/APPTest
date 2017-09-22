@@ -24,9 +24,9 @@ public class ExpandableListView extends Activity {
         //创建一个BaseExpandableListAdapter对象
         ExpandableListAdapter adapter = new BaseExpandableListAdapter() {
             int[] logos = new int[]{
-                    R.drawable.ebook_128x128_32,
-                    R.drawable.voice_128x128_32,
-                    R.drawable.gallery_128x128_32
+                    R.drawable.ebook_128x128,
+                    R.drawable.voice_128x128,
+                    R.drawable.gallery_128x128
             };
             private String[] armTypes = new String[]{
                     "神族兵种","虫族兵种","人族兵种"

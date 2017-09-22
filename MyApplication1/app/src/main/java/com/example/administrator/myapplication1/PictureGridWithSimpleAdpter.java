@@ -21,10 +21,10 @@ public class PictureGridWithSimpleAdpter extends Activity {
     GridView grid;
     ImageView imageView;
     int [] imageIds = new int[] {
-            R.drawable.browser_128x128_32,R.drawable.barcode_reader_128x128_32,R.drawable.alarm_128x128_32,
-            R.drawable.bump_128x128_32,R.drawable.android_128x128_32,R.drawable.bluetooth_128x128_32,
-            R.drawable.calculator_128x128_32,R.drawable.calendar_128x128_32,R.drawable.camcorder_128x128_32,
-            R.drawable.compass_128x128_32,R.drawable.deskclock,R.drawable.camera_128x128_32,R.drawable.dialer_128x128_32
+            R.drawable.browser_128x128,R.drawable.barcode_reader_128x128,R.drawable.alarm_1,
+            R.drawable.bump_128x128,R.drawable.android,R.drawable.bluetooth_128x128,
+            R.drawable.calculator_128x128,R.drawable.calendar_128x128,R.drawable.camcorder_128x128,
+            R.drawable.compass_128x128,R.drawable.deskclock,R.drawable.camera_128x128,R.drawable.dialer_128x128
     };
     @Override
     public void onCreate(Bundle savedInstanceState){

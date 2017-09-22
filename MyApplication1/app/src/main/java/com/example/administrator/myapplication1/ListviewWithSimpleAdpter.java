@@ -20,7 +20,7 @@ import java.util.Map;
 public class ListviewWithSimpleAdpter extends Activity {
     private String[] names = new String[]{"虎头", "弄玉", "李清照", "李白"};
     private String[] descs = new String[]{"可爱的小孩", "擅长音乐的女孩", "擅长文学的女性", "浪漫主义诗人"};
-    private int[] imageIds = new int[]{R.drawable.bump_128x128_32, R.drawable.alarm_128x128_32, R.drawable.barcode_reader_128x128_32, R.drawable.browser_128x128_32};
+    private int[] imageIds = new int[]{R.drawable.bump_128x128, R.drawable.alarm_1, R.drawable.barcode_reader_128x128, R.drawable.browser_128x128};
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simpleadapter);
