@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //获取应用程序中的btn11按钮
-        Button btn11 = (Button) findViewById(R.id.btn11);
-        btn11.setOnClickListener(new View.OnClickListener() {
+        Button btn21 = (Button) findViewById(R.id.btn21);
+        btn21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //创建需要启动的Activity对应的的Intent
-                Intent intent = new Intent(MainActivity.this,DrawBallActivity.class);
+                Intent intent = new Intent(MainActivity.this,PartTwo.class);
                 //启动intent对应的Activity
                 startActivity(intent);
             }

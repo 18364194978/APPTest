@@ -17,24 +17,24 @@
         android:layout_height="wrap_content"
         android:stretchColumns="0,1,2,3">
         <!--直接添加按钮会占整一行-->
-        <Button android:id="@+id/btn11"
+        <Button android:id="@+id/btn2_11"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="第一章"/>
+            android:text="移动的小球"/>
         <!--添加一个表格行-->
         <TableRow>
-            <Button android:id="@+id/btn21"
+            <Button android:id="@+id/btn2_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第二章"/>
-            <Button android:id="@+id/btn22"
+                android:text="霓虹灯"/>
+            <Button android:id="@+id/btn2_13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第三章"/>
-            <Button android:id="@+id/btn23"
+                android:text="计时器"/>
+            <Button android:id="@+id/btn2_14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第四章"/>
+                android:text="时钟"/>
         </TableRow>
     </TableLayout>
     <!--定义第二个表格布局指定2,3,4列陨石拉伸-->
@@ -42,23 +42,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="1,2,3">
-        <Button android:id="@+id/btn30"
+        <Button android:id="@+id/btn2_15"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="第五章"/>
+            android:text="注册模板"/>
         <TableRow>
-            <Button android:id="@+id/btn31"
+            <Button android:id="@+id/btn2_16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第六章"/>
-            <Button android:id="@+id/btn32"
+                android:text="图片到手机"/>
+            <Button android:id="@+id/btn2_17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第七章"/>
-            <Button android:id="@+id/btn33"
+                android:text="ViewList"/>
+            <Button android:id="@+id/btn2_18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="第八章"/>
+                android:text="grid图片"/>
         </TableRow>
     </TableLayout>
     <!--定义第三个表格布局指定2,3,4列陨石拉伸-->
@@ -66,7 +66,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="1,2,3">
-
+        <TableRow>
+            <Button android:id="@+id/btn2_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="组划分List"/>
+            <Button android:id="@+id/btn2_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn2_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
     </TableLayout>
     <!--
     <TextView
