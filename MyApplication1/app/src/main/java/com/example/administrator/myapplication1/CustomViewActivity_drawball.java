@@ -13,6 +13,7 @@ import com.example.administrator.ui.DrowView;
 public class CustomViewActivity_drawball extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawball);
         //获取布局中的LinearLayout容器
         LinearLayout root = (LinearLayout) findViewById(R.id.root);
