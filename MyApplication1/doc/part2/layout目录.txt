@@ -1,11 +1,11 @@
 C-->代表有activity
 1、计时器---activity_checktime(C)
-2、自定义时钟---activity_clock
+2、自定义时钟---activity_clock(C)
 3、随手指移动的红色小球---activity_drawball（C）
-4、自定义登录注册模板---activity_loginmodel
+4、自定义登录注册模板---activity_loginmodel（C）
 5、霓虹灯--activity_nihongpoll（C）
 6、点击图片调用手机号---activity_picattachphone（C）
 7、以grid展示的图片列表，点击图片展示对应的图片--activity_picturegeid（C）
 8、以listview展示的列表支持点击--activity_simpleadapter(附件activity_simple_item)（C）
-9、以组划分的listview--activty_expandlistview(附件activty_cell)（C）
+9、以组划分的listview--activty_expandlistview(附件activty_cell)（C）（该版本API可能不支持此类型的ExpandableAdpter，运行时报错）
 10、第二章的按钮界面--activity_prt2(C)
