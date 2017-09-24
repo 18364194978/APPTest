@@ -88,6 +88,30 @@ public class PartTwo extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn2_20 = (Button) findViewById(R.id.btn2_20);//弹框选择
+        btn2_20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartTwo.this,AlterSelect.class);
+                startActivity(intent);
+            }
+        });
+        Button btn2_21 = (Button) findViewById(R.id.btn2_21);//自动播放图片
+        btn2_21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartTwo.this,PlayPicture.class);
+                startActivity(intent);
+            }
+        });
+        Button btn2_23 = (Button) findViewById(R.id.btn2_19);//进度条
+        btn2_23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartTwo.this,ProgresBar.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

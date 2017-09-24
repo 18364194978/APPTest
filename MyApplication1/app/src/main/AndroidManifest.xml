@@ -39,6 +39,8 @@
         </activity>
         <activity android:name=".PlayPicture">
         </activity>
+        <activity android:name=".ProgresBar">
+        </activity>
     </application>
 
 </manifest>

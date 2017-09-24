@@ -80,6 +80,36 @@
                 android:layout_height="wrap_content"
                 android:text="自动播放图片"/>
         </TableRow>
+       <TableRow>
+            <Button android:id="@+id/btn2_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通进度条"/>
+            <Button android:id="@+id/btn2_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题进度条"/>
+           <Button android:id="@+id/btn2_25"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="空"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn2_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn2_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="空"/>
+            </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn2_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
     </TableLayout>
     <!--
     <TextView

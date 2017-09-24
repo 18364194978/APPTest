@@ -9,3 +9,4 @@
 9、弹框选择--AlterSelect
 10、播放图片--PlayPicture
 11、注册模板--Resitmodel
+12、进度条--ProgressBar（该版本api应该不支持该函数，查看最新的替换即可）

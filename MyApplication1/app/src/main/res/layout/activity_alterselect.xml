@@ -6,11 +6,13 @@
     <!--此处entries属性是直接引用已定义的数组-->
     <Spinner android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/books"
-        android:prompt="@string/tip"/>
+        android:entries="@array/books"/>
+        <!--android:prompt="@string/tip"-->
+
     <!--此处未引用数组，需要在activity内部定义ArrayAdapter提供数组-->
     <Spinner android:layout_height="wrap_content"
         android:id="@+id/spinner"
-        android:layout_width="match_parent"
-        android:prompt="@string/tip"/>
+        android:layout_width="match_parent"/>
+        <!--android:prompt="@string/tip"-->
+        />
 </LinearLayout>
