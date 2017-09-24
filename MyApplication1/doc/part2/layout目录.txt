@@ -9,3 +9,5 @@ C-->代表有activity
 8、以listview展示的列表支持点击--activity_simpleadapter(附件activity_simple_item)（C）
 9、以组划分的listview--activty_expandlistview(附件activty_cell)（C）（该版本API可能不支持此类型的ExpandableAdpter，运行时报错）
 10、第二章的按钮界面--activity_prt2(C)
+11、弹框选择--activity_alterselect(C)
+12、图片自动播放--activity_playpicture(C)
