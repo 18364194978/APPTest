@@ -5,9 +5,14 @@ C-->代表有activity
 4、自定义登录注册模板---activity_loginmodel（C）
 5、霓虹灯--activity_nihongpoll（C）
 6、点击图片调用手机号---activity_picattachphone（C）
-7、以grid展示的图片列表，点击图片展示对应的图片--activity_picturegeid（C）
+7、以grid展示的图片列表，点击图片展示对应的图片（也可以在切换图片时加上动画效果--将image换成imageSwitcher，见案例2.7ImageSwitcher）--activity_picturegeid（C）
 8、以listview展示的列表支持点击--activity_simpleadapter(附件activity_simple_item)（C）
 9、以组划分的listview--activty_expandlistview(附件activty_cell)（C）（该版本API可能不支持此类型的ExpandableAdpter，运行时报错）
 10、第二章的按钮界面--activity_prt2(C)
 11、弹框选择--activity_alterselect(C)
 12、图片自动播放--activity_playpicture(C)
+13、大环形以及完成进度条（my_bar.xml还未加载图片，需要更换）
+14、拖动条--activity_controlbar
+15、星级评分条（RatingBar）原理同14，不再创建代码
+16、翻屏加动画功能（疯狂的andriod2.7案例）
+17、文本切换加动画效果TextSwitcher（该版本API不支持）
