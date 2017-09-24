@@ -41,6 +41,8 @@
         </activity>
         <activity android:name=".ProgresBar">
         </activity>
+        <activity android:name=".ControlBar">
+        </activity>
     </application>
 
 </manifest>
