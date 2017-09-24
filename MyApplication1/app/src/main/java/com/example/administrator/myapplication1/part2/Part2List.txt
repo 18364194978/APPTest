@@ -6,3 +6,6 @@
 6、基于SimpleAdpter的GridView（与listview类似，只是其支持多列）--PictureGridWithSimpleAdpter
 7、已组的形式划分的listview--ExpandableListView.java
 8、第二章总的按钮界面--PartTwo.java
+9、弹框选择--AlterSelect
+10、播放图片--PlayPicture
+11、注册模板--Resitmodel

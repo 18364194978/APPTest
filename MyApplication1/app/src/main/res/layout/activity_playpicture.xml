@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#120基于AdapterViewFilpper的图片自动播放-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <AdapterViewFlipper android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="5000"
+        android:layout_alignParentTop="true"/>
+    <!--为Button设置了android:onClick则无需在activity内重新finView..,直接定义一个prev函数即可-->
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="prev"
+        android:text="上一个"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="next"
+        android:text="下一个"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="auto"
+        android:text="自动播放"/>
+
+</RelativeLayout>

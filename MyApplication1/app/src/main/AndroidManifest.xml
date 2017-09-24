@@ -35,6 +35,10 @@
         </activity>
         <activity android:name=".ResistModel">
         </activity>
+        <activity android:name=".AlterSelect">
+        </activity>
+        <activity android:name=".PlayPicture">
+        </activity>
     </application>
 
 </manifest>
