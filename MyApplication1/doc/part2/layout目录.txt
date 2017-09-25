@@ -21,3 +21,4 @@ C-->代表有activity
 20、搜索框（SearchView与ListView展示结合使用）--章节2.8.5
 21、多个tab页--activity_tabpage
 22、垂直滚动条（ScrollView）水平滚动条（HorizontalScrollView）章节2.8.7
+23、对话框（AlertDialog）进度对话框（ProgressDialog）日期选择对话框（DatePickerDialog）时间选择对话框（TimePickerDialog）章节2.9
