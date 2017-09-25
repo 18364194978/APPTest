@@ -47,6 +47,14 @@
         </activity>
         <activity android:name=".TabPage">
         </activity>
+        <activity android:name=".Notice">
+        </activity>
+        <activity android:name=".Commen">
+        </activity>
+        <!-- 添加操作闪光灯的权限 -->
+        <uses-permission android:name="android.permission.FLASHLIGHT"/>
+        <!-- 添加操作振动器的权限 -->
+        <uses-permission android:name="android.permission.VIBRATE"/>
     </application>
 
 </manifest>

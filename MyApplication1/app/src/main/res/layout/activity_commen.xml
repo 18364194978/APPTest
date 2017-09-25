@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--定义一个公共的activity，供其他程序调用实验-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="公共的Activity"/>
+
+</LinearLayout>

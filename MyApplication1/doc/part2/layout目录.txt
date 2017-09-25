@@ -20,3 +20,4 @@ C-->代表有activity
 19、日期选择器（DatePicker）时间选择器（TimePicker；数值选择器（NumberPicker）--章节2.84
 20、搜索框（SearchView与ListView展示结合使用）--章节2.8.5
 21、多个tab页--activity_tabpage
+22、垂直滚动条（ScrollView）水平滚动条（HorizontalScrollView）章节2.8.7

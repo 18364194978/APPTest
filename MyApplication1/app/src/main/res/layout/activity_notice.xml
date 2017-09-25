@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#126消息提示-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button android:id="@+id/sendnotice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="发送消息"
+    android:onClick="send"/>
+    <Button android:id="@+id/cancelnotice"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="取消发送"
+        android:onClick="del"/>
+</LinearLayout>

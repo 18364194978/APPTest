@@ -120,6 +120,22 @@ public class PartTwo extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn2_25 = (Button) findViewById(R.id.btn2_25);//Tab页
+        btn2_25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartTwo.this,TabPage.class);
+                startActivity(intent);
+            }
+        });
+        Button btn2_26 = (Button) findViewById(R.id.btn2_26);//发送通知
+        btn2_26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartTwo.this,Notice.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
