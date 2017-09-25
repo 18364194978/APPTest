@@ -16,3 +16,7 @@ C-->代表有activity
 15、星级评分条（RatingBar）原理同14，不再创建代码
 16、翻屏加动画功能（疯狂的andriod2.7案例）
 17、文本切换加动画效果TextSwitcher（该版本API不支持）
+18、Toast--activity_toast(此版本暂不支持)
+19、日期选择器（DatePicker）时间选择器（TimePicker；数值选择器（NumberPicker）--章节2.84
+20、搜索框（SearchView与ListView展示结合使用）--章节2.8.5
+21、多个tab页--activity_tabpage
