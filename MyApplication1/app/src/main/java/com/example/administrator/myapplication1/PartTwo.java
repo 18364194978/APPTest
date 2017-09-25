@@ -104,11 +104,19 @@ public class PartTwo extends Activity {
                 startActivity(intent);
             }
         });
-        Button btn2_23 = (Button) findViewById(R.id.btn2_19);//进度条
+        Button btn2_23 = (Button) findViewById(R.id.btn2_23);//进度条
         btn2_23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PartTwo.this,ProgresBar.class);
+                startActivity(intent);
+            }
+        });
+        Button btn2_24 = (Button) findViewById(R.id.btn2_24);//Toast
+        btn2_24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartTwo.this,Toast.class);
                 startActivity(intent);
             }
         });

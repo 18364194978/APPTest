@@ -43,6 +43,10 @@
         </activity>
         <activity android:name=".ControlBar">
         </activity>
+        <activity android:name=".Toast">
+        </activity>
+        <activity android:name=".TabPage">
+        </activity>
     </application>
 
 </manifest>
