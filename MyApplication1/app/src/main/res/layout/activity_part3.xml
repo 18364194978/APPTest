@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.myapplication1.MainActivity">
+    <!--此处采用tableLayout的格式为按钮布局，此布局继承了LinearLayout布局，所以放在内部即可-->
+    <!--定义第一个表格布局指定2,3,4列陨石拉伸-->
+    <TableLayout android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3">
+        <!--直接添加按钮会占整一行-->
+        <Button android:id="@+id/btn3_11"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="空"/>
+        <!--添加一个表格行-->
+        <TableRow>
+            <Button android:id="@+id/btn3_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
+    </TableLayout>
+    <!--定义第二个表格布局指定2,3,4列陨石拉伸-->
+    <TableLayout android:id="@+id/TableLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3">
+        <Button android:id="@+id/btn3_15"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="空"/>
+        <TableRow>
+            <Button android:id="@+id/btn3_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
+    </TableLayout>
+    <!--定义第三个表格布局指定2,3,4列陨石拉伸-->
+    <TableLayout android:id="@+id/TableLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3">
+        <TableRow>
+            <Button android:id="@+id/btn3_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn3_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn3_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+            <Button android:id="@+id/btn3_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn3_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
