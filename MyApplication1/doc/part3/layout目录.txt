@@ -1,1 +1,4 @@
 1、飞机大战--没用到布局文件，详情看PlanWar.java
+2、修改屏幕方向--activity_changesreen
+3、利用Handler机制控制主线程定时修改图片展示--章节3.5.
+4、利用Handler、Looper、新线程中计算质数--activity_calcunum
