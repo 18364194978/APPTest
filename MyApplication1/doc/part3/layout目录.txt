@@ -4,3 +4,4 @@
 4、利用Handler、Looper、新线程中计算质数--activity_calcunum
 5、不涉及进程及Handler，使用异步，实现下载并实时更新下载进度（AsyncTask）--章节3.6
 6、与第二章注册界面结合，利用intent传递信息展示注册信息--activity_getrisist
+7、用第二个activity添加信息并返回第一个activity（startActivityForResule）--章节4.1.5

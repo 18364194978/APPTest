@@ -62,10 +62,14 @@
         </activity>
         <activity android:name=".ShowResist">
         </activity>
+        <activity android:name=".GetPhone">
+        </activity>
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>
         <!-- 添加操作振动器的权限 -->
         <uses-permission android:name="android.permission.VIBRATE"/>
+        <!--添加获取联系人的权限-->
+        <uses-permission android:name="android.permission.READ_CONTACTS"/>
     </application>
 
 </manifest>
