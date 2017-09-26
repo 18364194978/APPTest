@@ -31,5 +31,13 @@ public class PartThree extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn3_13 = (Button) findViewById(R.id.btn3_13);//计算质数
+        btn3_13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartThree.this,Calcunum.class);
+                startActivity(intent);
+            }
+        });
     }
 }

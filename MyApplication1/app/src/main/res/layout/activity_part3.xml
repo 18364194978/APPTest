@@ -30,7 +30,7 @@
             <Button android:id="@+id/btn3_13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="空"/>
+                android:text="计算质数"/>
             <Button android:id="@+id/btn3_14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
