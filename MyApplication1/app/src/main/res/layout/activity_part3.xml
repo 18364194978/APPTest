@@ -20,13 +20,13 @@
         <Button android:id="@+id/btn3_11"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="空"/>
+            android:text="飞机大战"/>
         <!--添加一个表格行-->
         <TableRow>
             <Button android:id="@+id/btn3_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="空"/>
+                android:text="改变屏幕"/>
             <Button android:id="@+id/btn3_13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

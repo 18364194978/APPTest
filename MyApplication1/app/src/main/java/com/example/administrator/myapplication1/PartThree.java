@@ -23,5 +23,13 @@ public class PartThree extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn3_12 = (Button) findViewById(R.id.btn3_12);//改变屏幕
+        btn3_12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartThree.this,ChangScreen.class);
+                startActivity(intent);
+            }
+        });
     }
 }
