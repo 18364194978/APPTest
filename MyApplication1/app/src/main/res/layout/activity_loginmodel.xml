@@ -15,6 +15,7 @@
 
         <EditText
             android:layout_width="match_parent"
+            android:id="@+id/resname"
             android:layout_height="wrap_content"
             android:hint="请填写登录账号"
             android:selectAllOnFocus="true" />
@@ -28,6 +29,7 @@
         <!--inputType="numberPassword"表明只接受数字密码-->
         <EditText android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/respassword"
             android:hint="请填写密码"
             android:inputType="numberPassword"/>
     </TableRow>
@@ -39,6 +41,7 @@
             android:textSize="16sp"/>
         <!--inputType="number"表明数值输入框-->
         <EditText android:layout_height="wrap_content"
+            android:id="@+id/resold"
             android:layout_width="match_parent"
             android:inputType="number"/>
     </TableRow>
@@ -62,10 +65,12 @@
         <EditText android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:hint="请输入电话号码"
+            android:id="@+id/resphone"
             android:selectAllOnFocus="true"
             android:inputType="phone"/>
     </TableRow>
     <Button android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:id="@+id/resist"
         android:text="注册"/>
 </TableLayout>

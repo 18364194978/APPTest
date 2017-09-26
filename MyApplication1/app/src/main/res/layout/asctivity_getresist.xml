@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#129通过intent在activity之间传递信息展示注册信息-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView android:id="@+id/getname"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"/>
+    <TextView android:id="@+id/getpassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:id="@+id/getold"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:id="@+id/getphone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+</LinearLayout>
