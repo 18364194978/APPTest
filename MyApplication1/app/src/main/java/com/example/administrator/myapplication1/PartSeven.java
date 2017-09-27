@@ -22,5 +22,12 @@ public class PartSeven extends Activity {
                 Intent intent = new Intent(PartSeven.this,DrawPanel.class);
             }
         });
+        Button btn7_16 = (Button)findViewById(R.id.btn7_16);
+        btn7_16.setOnClickListener(new View.OnClickListener() {//弹球游戏
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartSeven.this,PlayBall.class);
+            }
+        });
     }
 }

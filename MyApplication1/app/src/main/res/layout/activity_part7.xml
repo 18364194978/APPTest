@@ -15,7 +15,7 @@
             <Button android:id="@+id/btn7_16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""/>
+                android:text="弹球游戏"/>
             <Button android:id="@+id/btn7_17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
