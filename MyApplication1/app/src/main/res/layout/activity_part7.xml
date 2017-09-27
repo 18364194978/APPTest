@@ -19,7 +19,7 @@
             <Button android:id="@+id/btn7_17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""/>
+                android:text="扭曲图片"/>
             <Button android:id="@+id/btn7_18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

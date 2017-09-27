@@ -1,3 +1,6 @@
 1、通过path、canav动态的心电图--章节7.2.2
 2、通过双缓冲(当程序需要在指定view上进行绘制，程序并不直接绘制在该view上，而是先绘制到内存中的一个Bitmap图片<缓冲区>上，等到内存中的bitmap绘制好后在一次性将bitmap绘制到view上)传建一个画板--DrawPanel.java
 3、弹球游戏--PlayBall.java
+4、利用Matrix对图片实现旋转、缩放、平移(飞机大战的背景移动)--章节7.3.1
+5、移动的背景--章节7.3（仔细研究下）
+6、可揉动的图片--activity_hitpicture

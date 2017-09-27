@@ -20,6 +20,7 @@ public class PartSeven extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PartSeven.this,DrawPanel.class);
+                startActivity(intent);
             }
         });
         Button btn7_16 = (Button)findViewById(R.id.btn7_16);
@@ -27,6 +28,15 @@ public class PartSeven extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PartSeven.this,PlayBall.class);
+                startActivity(intent);
+            }
+        });
+        Button btn7_17 = (Button)findViewById(R.id.btn7_17);
+        btn7_17.setOnClickListener(new View.OnClickListener() {//扭曲图片
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartSeven.this,PlayBall.class);
+                startActivity(intent);
             }
         });
     }
