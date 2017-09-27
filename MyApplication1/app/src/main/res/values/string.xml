@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Application</string>
-<string name="width_1">1ÏñËØ</string>
+	<string name="hello">Hello World, HandDraw!</string>
+	<string name="app_name">ÊÖ»æ</string>
+	<string name="width_1">1ÏñËØ</string>
 	<string name="width_3">3ÏñËØ</string>
 	<string name="width_5">5ÏñËØ</string>
 	<string name="color_red">ºìÉ«</string>

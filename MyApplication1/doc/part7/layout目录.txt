@@ -1,0 +1,2 @@
+1、通过path、canav动态的心电图--章节7.2.2
+2、通过双缓冲(当程序需要在指定view上进行绘制，程序并不直接绘制在该view上，而是先绘制到内存中的一个Bitmap图片<缓冲区>上，等到内存中的bitmap绘制好后在一次性将bitmap绘制到view上)传建一个画板--DrawPanel.java

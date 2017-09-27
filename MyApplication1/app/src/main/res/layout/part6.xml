@@ -18,7 +18,7 @@
         <Button android:id="@+id/btn6_17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="空"/>
+            android:text=""/>
         <Button android:id="@+id/btn6_18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

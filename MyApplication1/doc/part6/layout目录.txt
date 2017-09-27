@@ -1,3 +1,4 @@
 1、椭圆形、渐变背景的文本框--章节6.4.4
 2、徐徐展开的图片--activity_slidepicture
 3、属性动画，不断渐变的背景色--acitivty_backgroundcolorchange
+4、给所有的窗口加标题、图片等--章节6.9.2
