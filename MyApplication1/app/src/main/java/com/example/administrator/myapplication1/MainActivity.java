@@ -33,5 +33,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btn30 = (Button) findViewById(R.id.btn30);
+        btn30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //创建需要启动的Activity对应的的Intent
+                Intent intent = new Intent(MainActivity.this,Part5.class);
+                //启动intent对应的Activity
+                startActivity(intent);
+            }
+        });
     }
 }

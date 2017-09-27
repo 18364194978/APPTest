@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--drawable:指定截取的原drawable对象
+clipOrientation:指定截取的方向，可设置水平截取或垂直截取
+gravity指定截取时的对齐方式-->
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/shuangta"
+    android:clipOrientation="horizontal"
+    android:gravity="center">
+
+</clip>
