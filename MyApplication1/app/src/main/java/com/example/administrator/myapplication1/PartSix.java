@@ -23,5 +23,13 @@ public class PartSix extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn6_16 = (Button)findViewById(R.id.btn6_16);
+        btn6_16.setOnClickListener(new View.OnClickListener() {//变化的背景色
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartSix.this,BackColorChange.class);
+                startActivity(intent);
+            }
+        });
     }
 }
