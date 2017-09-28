@@ -4,3 +4,4 @@
 4、利用Matrix对图片实现旋转、缩放、平移(飞机大战的背景移动)--章节7.3.1
 5、移动的背景--章节7.3（仔细研究下）
 6、可揉动的图片--activity_hitpicture
+7、蝴蝶飞舞--activity_butterfly

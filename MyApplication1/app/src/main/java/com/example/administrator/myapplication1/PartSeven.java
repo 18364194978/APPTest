@@ -31,11 +31,19 @@ public class PartSeven extends Activity {
                 startActivity(intent);
             }
         });
-        Button btn7_17 = (Button)findViewById(R.id.btn7_17);
+        Button btn7_17 = (Button)findViewById(R.id.btn7_17);//揉动图片
         btn7_17.setOnClickListener(new View.OnClickListener() {//扭曲图片
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PartSeven.this,PlayBall.class);
+                startActivity(intent);
+            }
+        });
+        Button btn7_18 = (Button)findViewById(R.id.btn7_18);//蝴蝶飞舞
+        btn7_18.setOnClickListener(new View.OnClickListener() {//扭曲图片
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartSeven.this,ButterFly.class);
                 startActivity(intent);
             }
         });

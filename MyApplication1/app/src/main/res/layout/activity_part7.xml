@@ -23,7 +23,7 @@
             <Button android:id="@+id/btn7_18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="空"/>
+                android:text="蝴蝶飞舞"/>
         </TableRow>
     </TableLayout>
 </LinearLayout>
