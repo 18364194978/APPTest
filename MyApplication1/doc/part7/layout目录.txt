@@ -5,3 +5,6 @@
 5、移动的背景--章节7.3（仔细研究下）
 6、可揉动的图片--activity_hitpicture
 7、蝴蝶飞舞--activity_butterfly
+8、自定义补间动画（完成一些三维空间的旋转扭曲等）--章节7.5.3
+9、鱼儿游（基于surfaceview代替 view）--章节7.7.1
+10、示波器（基于surfaceview，不需要在UI线程中更新）--activity_showWave

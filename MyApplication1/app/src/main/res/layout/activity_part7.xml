@@ -26,4 +26,27 @@
                 android:text="蝴蝶飞舞"/>
         </TableRow>
     </TableLayout>
+    <TableLayout android:id="@+id/TableLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3">
+        <Button android:id="@+id/btn7_19"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="示波器"/>
+        <TableRow>
+            <Button android:id="@+id/btn7_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            <Button android:id="@+id/btn7_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            <Button android:id="@+id/btn7_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </TableRow>
+    </TableLayout>
 </LinearLayout>

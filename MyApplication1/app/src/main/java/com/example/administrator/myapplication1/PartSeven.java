@@ -47,5 +47,13 @@ public class PartSeven extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn7_19 = (Button)findViewById(R.id.btn7_19);//示波器
+        btn7_19.setOnClickListener(new View.OnClickListener() {//扭曲图片
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PartSeven.this,ShowWave.class);
+                startActivity(intent);
+            }
+        });
     }
 }

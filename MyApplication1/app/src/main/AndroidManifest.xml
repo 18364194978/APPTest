@@ -82,6 +82,8 @@
         </activity>
         <activity android:name=".ButterFly">
         </activity>
+        <activity android:name=".ShowWave">
+        </activity>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>
