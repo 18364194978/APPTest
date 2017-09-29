@@ -15,7 +15,7 @@
             <Button android:id="@+id/btn8_16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""/>
+                android:text="手势缩放"/>
             <Button android:id="@+id/btn8_17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

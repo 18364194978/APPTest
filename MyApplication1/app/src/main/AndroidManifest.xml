@@ -88,6 +88,8 @@
         </activity>
         <activity android:name=".SDFileList">
         </activity>
+        <activity android:name=".GestruePicture">
+        </activity>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>

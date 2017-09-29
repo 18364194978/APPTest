@@ -3,6 +3,7 @@ package com.example.administrator.myapplication1;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.GestureDetector;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,6 +21,14 @@ public class Part8 extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent  = new Intent(Part8.this,SDFileList.class);
+                startActivity(intent);
+            }
+        });
+        Button btn8_16 = (Button)findViewById(R.id.btn8_16);
+        btn8_16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part8.this, GestruePicture.class);
                 startActivity(intent);
             }
         });
