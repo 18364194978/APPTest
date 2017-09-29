@@ -71,6 +71,10 @@
     </TableRow>
     <Button android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:id="@+id/resist"
-        android:text="注册"/>
+        android:id="@+id/activtyresist"
+        android:text="activity注册"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/shareresist"
+        android:text="activity注册"/>
 </TableLayout>

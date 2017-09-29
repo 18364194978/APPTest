@@ -3,6 +3,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <!--通过activity传递过来的参数-->
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="通过activity传递过来的参数"/>
 <TextView android:id="@+id/getname"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"/>
@@ -13,6 +17,21 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
     <TextView android:id="@+id/getphone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="通过SharedPreferences传递过来的参数"/>
+    <TextView android:id="@+id/getnameforshare"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:id="@+id/getpasswordforshare"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:id="@+id/getoldforshare"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:id="@+id/getphoneforshare"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
 </LinearLayout>

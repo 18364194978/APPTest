@@ -1,0 +1,1 @@
+1、通过sharePreferrences,将信息写入读取，与注册界面绑定--activity_loginmodel
