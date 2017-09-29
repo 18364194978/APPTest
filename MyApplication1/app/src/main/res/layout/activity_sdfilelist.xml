@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#139sd卡目录-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--显示当前路径的文本框-->
+    <TextView android:id="@+id/path"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"/>
+    <!--列出当前路径下所有的额文件-->
+    <ListView android:id="@+id/sdlist"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:divider="#000"
+        android:dividerHeight="1px"
+        android:layout_below="@id/path"/>
+    <!--返回上一级目录的按钮-->
+    <Button android:id="@+id/parent"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:background="@drawable/home_128x128"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

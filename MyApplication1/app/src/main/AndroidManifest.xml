@@ -84,6 +84,10 @@
         </activity>
         <activity android:name=".ShowWave">
         </activity>
+        <activity android:name=".Part8">
+        </activity>
+        <activity android:name=".SDFileList">
+        </activity>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>

@@ -1,1 +1,4 @@
 1、通过sharePreferrences,将信息写入读取，与注册界面绑定--activity_loginmodel
+2、通过sharePreferrences,记录用户的登陆次数
+3、通过FileOutputStream实现文件的读写--章节8.2
+4、SD卡浏览器--activity_sdfilelist

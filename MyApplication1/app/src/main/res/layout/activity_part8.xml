@@ -10,7 +10,7 @@
         <Button android:id="@+id/btn8_15"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text=""/>
+            android:text="SD卡目录"/>
         <TableRow>
             <Button android:id="@+id/btn8_16"
                 android:layout_width="wrap_content"
