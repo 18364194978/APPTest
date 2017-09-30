@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#141增加手势由于GestureOverlayView并不是标准的视图组件，因此在不居中使用该组件时需要使用全限定类名-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="手势"/>
+    <!--使用手势绘制组件，一个手势一笔用single，多笔用multiple-->
+    <android.gesture.GestureOverlayView android:id="@+id/gesture"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gestureStrokeType="multiple"/>
+</LinearLayout>

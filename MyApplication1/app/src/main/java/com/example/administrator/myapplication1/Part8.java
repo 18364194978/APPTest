@@ -32,5 +32,13 @@ public class Part8 extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn8_18 = (Button)findViewById(R.id.btn8_18);
+        btn8_18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part8.this, AddGesture.class);
+                startActivity(intent);
+            }
+        });
     }
 }

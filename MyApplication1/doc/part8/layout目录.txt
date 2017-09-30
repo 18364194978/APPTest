@@ -4,3 +4,6 @@
 4、SD卡浏览器--activity_sdfilelist
 5、利用数据库SQLite建立一个生词本--章节8.3.7
 6、通过手势缩放图片--activity_gesturepic
+7、通过手势实现翻页--章节8.4.1
+8、增加手势--activity_sddgesture
+9、配合8的手势检测--章节8.4.3
