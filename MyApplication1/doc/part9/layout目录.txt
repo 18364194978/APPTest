@@ -1,0 +1,2 @@
+1、contentProvider提供生词本--章节9.2.5
+2、contentProvider获取联系人信息(展示信息的ExpandableList暂时无法使用，看一下用LIst替代)--activity_getphonebyprovider

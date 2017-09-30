@@ -92,6 +92,10 @@
         </activity>
         <activity android:name=".AddGesture">
         </activity>
+        <activity android:name=".Part9">
+        </activity>
+        <activity android:name=".GetPhoneByProvider">
+        </activity>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>
@@ -99,6 +103,8 @@
         <uses-permission android:name="android.permission.VIBRATE"/>
         <!--添加获取联系人的权限-->
         <uses-permission android:name="android.permission.READ_CONTACTS"/>
+        <!--添加写联系人的权限-->
+        <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
     </application>
 
 </manifest>

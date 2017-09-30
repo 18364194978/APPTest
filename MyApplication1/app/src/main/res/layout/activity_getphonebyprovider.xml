@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#142通过contentProvider获取手机联系人-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <Button android:id="@+id/phoneseach"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="查询"/>
+        <Button android:id="@+id/phoneadd"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="添加"/>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="联系人"/>
+    <EditText android:id="@+id/phonename"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="电话"/>
+    <EditText android:id="@+id/phonenum"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="邮箱"/>
+    <EditText android:id="@+id/phoneemail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>
