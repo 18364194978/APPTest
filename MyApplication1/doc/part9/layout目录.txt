@@ -1,2 +1,10 @@
 1、contentProvider提供生词本--章节9.2.5
 2、contentProvider获取联系人信息(展示信息的ExpandableList暂时无法使用，看一下用LIst替代)--activity_getphonebyprovider
+延伸：
+MediaStore.Audio.Media.EXTERNAL_CONTENT_URI(存储在SD上的音频文件的Uri)
+MediaStore.Audio.Media.INTERNAL_CONTENT_URI(存储在内存的音频文件的Uri)
+MediaStore.Images.Media.EXTERNAL_CONTENT_URI(存储在SD上的图片文件的Uri)
+MediaStore.Images.Media.INTERNAL_CONTENT_URI(存储在内存的图片文件的Uri)
+MediaStore.Video.Media.EXTERNAL_CONTENT_URI(存储在SD上的视频文件的Uri)
+MediaStore.Video.Media.INTERNAL_CONTENT_URI(存储在内存的视频文件的Uri)
+3、查看照片--activity_showpicture
