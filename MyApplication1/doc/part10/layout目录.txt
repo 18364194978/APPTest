@@ -1,0 +1,1 @@
+1、通过服务获取状态--activity_getcountbyservice
