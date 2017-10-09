@@ -106,6 +106,10 @@
         </service>
         <activity android:name=".ListenPhone">
         </activity>
+        <activity android:name=".ChangeBackPicture">
+        </activity>
+        <service android:name=".ChangeBackPicService">
+        </service>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>
@@ -119,8 +123,10 @@
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
         <!--添加写入外部存储的访问权限-->
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-        <!--添加读取童话状态的权限-->
+        <!--添加读取通话状态的权限-->
         <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+        <!--添加用户修改壁纸的权限-->
+        <uses-permission android:name="android.permission.SET_WALLPAPER"/>
     </application>
 
 </manifest>

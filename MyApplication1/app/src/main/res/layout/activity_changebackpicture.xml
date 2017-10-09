@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#146定时更换壁纸使用alarm组件定时调用更换壁纸的service,可以与前面的读取sd卡内部得图片结合来更换壁纸更完美-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button android:id="@+id/changebackpic"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="开始更换"/>
+    <Button android:id="@+id/unchangebackpic"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="停止更换"/>
+</LinearLayout>

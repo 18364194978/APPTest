@@ -31,5 +31,13 @@ public class Part10 extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn10_17 = (Button)findViewById(R.id.btn10_17);
+        btn10_17.setOnClickListener(new View.OnClickListener() {//更换壁纸
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part10.this,ChangeBackPicture.class);
+                startActivity(intent);
+            }
+        });
     }
 }
