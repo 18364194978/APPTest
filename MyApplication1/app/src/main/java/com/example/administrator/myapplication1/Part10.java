@@ -23,5 +23,13 @@ public class Part10 extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn10_16 = (Button)findViewById(R.id.btn10_16);
+        btn10_16.setOnClickListener(new View.OnClickListener() {//监听电话
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part10.this,ListenPhone.class);
+                startActivity(intent);
+            }
+        });
     }
 }

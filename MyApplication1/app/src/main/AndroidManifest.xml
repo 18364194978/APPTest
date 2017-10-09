@@ -104,6 +104,8 @@
         </activity>
         <service android:name=".ServiceForCount">
         </service>
+        <activity android:name=".ListenPhone">
+        </activity>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>
@@ -117,6 +119,8 @@
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
         <!--添加写入外部存储的访问权限-->
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <!--添加读取童话状态的权限-->
+        <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     </application>
 
 </manifest>

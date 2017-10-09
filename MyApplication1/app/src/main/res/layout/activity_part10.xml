@@ -9,12 +9,12 @@
         <Button android:id="@+id/btn10_15"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text=""/>
+            android:text="获取服务状态"/>
         <TableRow>
             <Button android:id="@+id/btn10_16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""/>
+                android:text="监听电话"/>
             <Button android:id="@+id/btn10_17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

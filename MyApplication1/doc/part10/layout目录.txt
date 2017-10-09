@@ -1,1 +1,4 @@
 1、通过服务获取状态--activity_getcountbyservice
+2、耗时的service（下载等）建议使用IntentService(无需重写onbind以及新开线程等，其会自动添加线程处理耗时任务)代替普通的Service（需要在新加的线程中处理耗时任务，否则会崩溃）--章节10.1.5
+3、电话管理器获取电话网络sim信息等--章节10.2
+4、电话监听--activity_listenphone
