@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--#149多人聊天室-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <!--定一个文本框，用于接收用户的输入-->
+    <EditText android:id="@+id/chatinput"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/chatsend"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:text="发送"/>
+</LinearLayout>
+    <!--定义一个文本框用于显示李子服务器的信息-->
+    <TextView android:id="@+id/chatshow"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:background="#ffff"
+        android:textSize="14dp"
+        android:textColor="#ffff"/>
+</LinearLayout>

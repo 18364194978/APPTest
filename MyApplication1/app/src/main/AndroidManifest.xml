@@ -100,6 +100,10 @@
         </activity>
         <activity android:name=".Part10">
         </activity>
+        <activity android:name=".Part11">
+        </activity>
+        <activity android:name=".Part13">
+        </activity>
         <activity android:name=".GetCountByService">
         </activity>
         <service android:name=".ServiceForCount">
@@ -112,6 +116,8 @@
         </service>
         <service android:name=".CommenService">
         </service>
+        <activity android:name=".PeopleChat">
+        </activity>
         <!--定一个BroadcastReceiver,监听系统开机广播-->
         <receiver android:name=".AutoService">
             <intent-filter>
@@ -143,6 +149,8 @@
         <uses-permission android:name="android.permission.SET_WALLPAPER"/>
         <!--添加接收短信的权限-->
         <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+        <!--添加访问网络的权限-->
+        <uses-permission android:name="android.permission.INTERNET"/>
     </application>
 
 </manifest>

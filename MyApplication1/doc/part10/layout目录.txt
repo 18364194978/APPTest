@@ -20,3 +20,4 @@ ACTION_POWER_DISCONNECTED：系统断开电源
 ACTION_SHUTDOWN：系统被关闭
 11、开机自运行的servcie--activity_autoservice
 12、短信拦截--ShortCutMsg.java
+13、手机电量过低提示--章节10.8
