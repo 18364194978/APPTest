@@ -7,3 +7,16 @@
 7、手机振动--章节10.5.2
 8、全局闹钟的设定（即使关机也会运行，可以定时闹钟或者启动activity、service）--章节10.6.2
 9、定时更换壁纸--actvity_changebackpicture
+10、基于activity、service、广播的音乐播放器（前端动态展示及后台服务播放音乐）--章节10.7.3
+11、接收系统广播消息：
+ACTION_TIME_CHANGED:系统时间改变
+ACTION_DATE_CHANGED:系统日期改变
+ACTION_TIMEZONE_CHANGED:系统时区改变
+ACTION_BOOT_COMPLETED:系统启动完成
+ACTION_BATTERY_CHANGED:电池电量改变
+ACTION_BATTERY_LOW:电量低
+ACTION_POWER_CONNECTED：系统连接电源
+ACTION_POWER_DISCONNECTED：系统断开电源
+ACTION_SHUTDOWN：系统被关闭
+11、开机自运行的servcie--activity_autoservice
+12、短信拦截--ShortCutMsg.java

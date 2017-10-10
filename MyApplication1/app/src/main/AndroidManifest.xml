@@ -110,6 +110,20 @@
         </activity>
         <service android:name=".ChangeBackPicService">
         </service>
+        <service android:name=".CommenService">
+        </service>
+        <!--定一个BroadcastReceiver,监听系统开机广播-->
+        <receiver android:name=".AutoService">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <!--定一个BroadcastReceiver,priority范围-1000~1000越大优先级越高-->
+        <receiver android:name=".ShortCutMsg">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provide.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
 
         <!-- 添加操作闪光灯的权限 -->
         <uses-permission android:name="android.permission.FLASHLIGHT"/>
@@ -127,6 +141,8 @@
         <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
         <!--添加用户修改壁纸的权限-->
         <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+        <!--添加接收短信的权限-->
+        <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     </application>
 
 </manifest>
