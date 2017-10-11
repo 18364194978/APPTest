@@ -1,6 +1,7 @@
 package com.example.administrator.myapplication1;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -28,6 +29,14 @@ public class Part13 extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Part13.this,SmallBrowser.class);
+                startActivity(intent);
+            }
+        });
+        Button btn13_17 = (Button)findViewById(R.id.btn13_17);
+        btn13_17.setOnClickListener(new View.OnClickListener() {//WebView加载html
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part13.this,BrowserToHtml.class);
                 startActivity(intent);
             }
         });
