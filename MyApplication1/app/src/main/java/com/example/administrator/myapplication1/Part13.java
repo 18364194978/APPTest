@@ -23,5 +23,13 @@ public class Part13 extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn13_16 = (Button)findViewById(R.id.btn13_16);
+        btn13_16.setOnClickListener(new View.OnClickListener() {//迷你浏览器
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part13.this,SmallBrowser.class);
+                startActivity(intent);
+            }
+        });
     }
 }
