@@ -40,5 +40,13 @@ public class Part13 extends Activity {
                 startActivity(intent);
             }
         });
+        Button btn13_18 = (Button)findViewById(R.id.btn13_18);
+        btn13_18.setOnClickListener(new View.OnClickListener() {//html调webview
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Part13.this,HtmlToWebView.class);
+                startActivity(intent);
+            }
+        });
     }
 }

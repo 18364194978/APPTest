@@ -122,6 +122,8 @@
         </activity>
         <activity android:name=".BrowserToHtml">
         </activity>
+        <activity android:name=".HtmlToWebView">
+        </activity>
         <!--定一个BroadcastReceiver,监听系统开机广播-->
         <receiver android:name=".AutoService">
             <intent-filter>
