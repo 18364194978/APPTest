@@ -124,6 +124,17 @@
         </activity>
         <activity android:name=".HtmlToWebView">
         </activity>
+        <!--位动态壁纸配置service-->
+        <service android:name=".LiveWallPaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <!--为动态壁纸配置intent_filter-->
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <!--为动态壁纸配置meta-data-->
+            <meta-data android:name="android.service.wallpaper"
+                android:resource="@xml/livewallpaper"/>
+        </service>
         <!--定一个BroadcastReceiver,监听系统开机广播-->
         <receiver android:name=".AutoService">
             <intent-filter>

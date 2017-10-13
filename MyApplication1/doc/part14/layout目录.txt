@@ -1,0 +1,1 @@
+1、手机动态壁纸--LiveWallPaper.java(无需布局文件）
