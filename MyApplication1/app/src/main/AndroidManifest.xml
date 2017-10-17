@@ -122,8 +122,8 @@
         </activity>
         <activity android:name=".BrowserToHtml">
         </activity>
-        <activity android:name=".HtmlToWebView">
-        </activity>
+        <!--<activity android:name=".HtmlToWebView">-->
+        <!--</activity>-->
         <!--位动态壁纸配置service-->
         <service android:name=".LiveWallPaper"
             android:permission="android.permission.BIND_WALLPAPER">
